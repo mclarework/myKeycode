@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: teal;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    height: fit-content;
+    width: 90vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#topBar {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    flex-direction: column;
+}
+
+.displayTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkred;
+    text-align: center;
+}
+
+#center {
+    display: flex;
+    min-height: 393.5px;
+    height:fit-content;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: darkred;
+    text-shadow: 2px 2px 5px black;
+    font-size: xx-large;
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    background-color: darkred;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.displayBot {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkred;
+}
+
+#botBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.botBox {
+    display: flex;
+    min-height: 175px;
+    height: fit-content;
+    width: 300px;
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    flex-direction: column;
+}
